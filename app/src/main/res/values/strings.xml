@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">it-courses</string>
+    <string name ="grid_list_view">grid_list_view</string>
+    // title
+    <string name="main_title">Главная</string>
+    <string name="calculator_title">Калькулятор</string>
+    <string name="list_title">Список</string>
+
+
+    <string name="calculator">Калькулятор</string>
+    <string name="first_button">Список</string>
+    <string name="second_button">Вторая кнопка</string>
+
+    <!-- calculator -->
+    <string name="num_0">0</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+
+    <string name="equally">=</string>
+    <string name="dot">.</string>
+
+    <string name="div">÷</string>
+    <string name="mult">×</string>
+    <string name="sub">-</string>
+    <string name="sum">+</string>
+
+    <string name="clear">C</string>
+    <string name="answer">Ответ</string>
+</resources>

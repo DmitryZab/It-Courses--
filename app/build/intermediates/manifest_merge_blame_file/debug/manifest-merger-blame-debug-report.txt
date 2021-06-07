@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.itcourses"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:5:5-32:19
+12        android:allowBackup="true"
+12-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.2] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\68600a5be4367d49d50b69b04e4caf8f\core-1.3.2\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Itcourses" >
+20-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:11:9-47
+21        <activity
+21-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:13:9-21:20
+22            android:name="com.example.itcourses.ui.main.MainActivity"
+22-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:14:13-49
+23            android:label="@string/main_title" >
+23-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:15:13-47
+24            <intent-filter>
+24-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:17:17-69
+25-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:19:17-77
+27-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:23:9-25:56
+31            android:name="com.example.itcourses.ui.calclulator.CalculatorActivity"
+31-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:24:13-62
+32            android:label="@string/calculator_title" />
+32-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:25:13-53
+33        <activity
+33-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:27:9-29:50
+34            android:name="com.example.itcourses.ui.list.ListActivity"
+34-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:28:13-49
+35            android:label="@string/list_title" />
+35-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:29:13-47
+36        <activity
+36-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:30:9-31:43
+37            android:name="com.example.itcourses.ui.gridList.GridListActivity"
+37-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:30:19-63
+38            android:label="grid_список" />
+38-->C:\Users\ACER\Desktop\it-courses-mast\app\src\main\AndroidManifest.xml:31:13-40
+39    </application>
+40
+41</manifest>
